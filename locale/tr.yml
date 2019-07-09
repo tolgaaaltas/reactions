@@ -1,0 +1,44 @@
+reflar-reactions:
+  forum:
+    warning: İfadeniz dönüştürüldü
+    notification: '{username}, gönderinize {reaction} ifadesi bıraktı'
+    settings:
+        notify_post_reacted_label: Biri gönderinize ifade bıraktı
+
+  admin:
+    permissions:
+        react_posts_label: Gönderilere ifade bırak
+
+    nav:
+      desc: Özel ifadeler ekleyin veya ayarları değiştirin.
+
+    page:
+      reactions:
+        title: Özel İfadeler
+        reactions: Mevcut İfadeler
+        Helptext: İfadeyi veya Font Awesome simgesi için tanımlayıcı terimi girin.
+        help:
+          identifier: Belirleyin
+
+      convert:
+        help: Eklentiyi güncellediyseniz, ifadelerin dönüştürülmesi gerekmektedir. Eğer eklentiyi yeni yüklediyseniz bu uyarıyı gözardı edebilirsiniz.
+        button: Eski ifadeleri dönüştür
+        converting: İfadeleriniz dönüştürülüyor. İşlem birkaç dakika içerisinde tamamlanacaktır. (Toplam ifade sayısına göre dönüştürülme süresi değişiklik gösterebilir)
+        converted: "{number} beğeninin tamamı dönüştürüldü"
+
+      settings:
+        save_settings: Ayarları Kaydet
+        integrations:
+          legend: Entegrasyonlar
+          warning: Benzer bir ifade bir beğeniye <storng>ve</strong> upvote derecelendirmesine <strong>dönüştürülemez</strong>
+          gamification:
+            legend: Gamification
+            upvoteLabel: İfadeleri upvote'a dönüştür
+            upvoteHelptext: Otomatik olarak upvote'a dönüştürmek istediğiniz bir ifadeyi belirtin
+            downvoteLabel: İfadeleri downvote'a dönüştür
+            downvoteHelptext: Otomatik olarak downvote'a dönüştürmek istediğiniz bir ifadeyi belirtin
+
+          likes:
+            legend: Beğeniler
+            Label: İfadeleri beğenilere dönüştür
+            Helptext: Otomatik olarak beğeniye dönüştürmek istediğiniz bir ifadeyi belirtin
